@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="els">
+        <div class="body">
+            <div class="center" id="maps"></div>
+            <div class="right">
+                <p class="next">下一个方块：</p>
+                <div class="smallDiv" id="smallD"></div>
+                <hr>
+                <p>得分：</p>
+                <input type="text" name="" id="score" value="0" disabled="disabled">
+                <hr>
+
+                <p>当前难度：</p>
+                <input type="text" name="" id="difficult" value="" disabled="disabled">
+
+                <p>选择难度：</p>
+                <!-- <div class="selec">
+                    <select id="sel" class="mui-btn mui-btn-block mui-icon mui-icon-search mui-right">
+                   
+                        <option value="item-1">简单</option>
+                        <option value="item-2">中等</option>
+                        <option value="item-3">困难</option>
+                    </select>
+                </div> -->
+                <div class="selec">
+                    <select id="sel">
+                            <option value="item-1">简单</option>
+                            <option value="item-2">中等</option>
+                            <option value="item-3">困难</option>
+                    </select>
+                </div>
+
+
+                <hr>
+                <div class="begin-btn">
+                    <button type="button" class="mui-btn mui-btn-primary" id="begin">&nbsp;&nbsp;开&nbsp;&nbsp;始&nbsp;&nbsp;</button>
+                    <button type="button" class="mui-btn mui-btn-primary" id="stop">&nbsp;&nbsp;暂&nbsp;&nbsp;停&nbsp;&nbsp;</button>
+                    <button type="button" class="mui-btn mui-btn-primary" id="rebegin">重新开始</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabbar">
+            <div class="move">
+                <div class="move-set">
+                    <button type="button" class="mui-btn mui-btn-danger mui-icon mui-icon-arrowthinup" id="up" disabled="disabled"> </button>
+
+                    <div class="up-down">
+                        <button type="button" class="mui-btn mui-btn-danger mui-icon mui-icon-arrowthinleft" id="left" disabled="disabled"></button>
+                        <!-- <div class="black"></div> -->
+                        <button type="button" class="mui-btn mui-btn-danger mui-icon mui-icon-arrowthinright" id="right" disabled="disabled"></button>
+                    </div>
+
+                    <button type="button" class="mui-btn mui-btn-danger mui-icon mui-icon-arrowthindown" id="down" disabled="disabled"></button>
+                </div>
+            </div>
+            <div class="intor">
+                <div>
+                    <div class="mui-icon mui-icon-arrowthinup">:变形</div>
+                    <div class="mui-icon mui-icon-arrowthindown">:下移</div>
+                    <div class="mui-icon mui-icon-arrowthinleft">:左移</div>
+                    <div class="mui-icon mui-icon-arrowthinright">:右移</div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

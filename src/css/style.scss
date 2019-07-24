@@ -1,0 +1,115 @@
+.els {
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+    background: -webkit-radial-gradient(center, circle, #fff 0%, #33e2f2 200%);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-family: "微软雅黑";
+    .body {
+        margin: 0;
+        padding: 0;
+        height: 590px;
+        width: 100%;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-wrap: wrap;
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 294px;
+            height: 585px;
+            // border: 1px solid rgb(158, 34, 34);
+            position: absolute;
+        }
+        .right {
+            /* // display: flex;
+            // flex-direction: column;
+            // justify-content: space-between; */
+            width: 28%;
+            /* // height: 595px; */
+            position: absolute;
+            right: 2px;
+            color: #000;
+            .next {
+                margin: 5px 0;
+            }
+            .smallDiv {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: rgba(120, 11, 6, 0.3);
+                width: 115px;
+                height: 115px;
+                // margin: 5px 5px 5px 5px;
+                // border: 1px solid rgb(158, 34, 34);
+            }
+            p {
+                color: #000;
+            }
+            input {
+                background-color: #ccc;
+            }
+            .selec {
+                width: 90px;
+                width: 240px;
+                height: 30px;
+                overflow: hidden;
+                background: url("../images/sel.jpg") no-repeat right #ddd;
+                select {
+                    text-align-last: center;
+                    background: transparent;
+                    width: 115px;
+                    padding: 5px;
+                    font-size: 14px;
+                    border: 1px solid #ccc;
+                    height: 30px;
+                    -webkit-appearance: none;
+                    /*for chrome*/
+                }
+            }
+            .mui-btn {
+                margin: 10px;
+            }
+        }
+    }
+    .tabbar {
+        // display: inline-block;
+        .move {
+            width: 294px;
+            height: 100%;
+            display: inline-block;
+            .move-set {
+                text-align: center;
+                margin: 0 auto;
+                font-size: 20px;
+                .mui-btn {
+                    height: 50px;
+                    width: 50px;
+                }
+                .up-down {
+                    .mui-btn {
+                        height: 50px;
+                        width: 50px;
+                        margin: 0 25px;
+                    }
+                }
+            }
+        }
+        .intor {
+            color: #000;
+            width: 110px;
+            display: inline-block;
+            .mui-icon {
+                font-size: 16px;
+                display: block;
+                margin: 5px;
+            }
+        }
+    }
+}
